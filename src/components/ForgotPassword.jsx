@@ -9,7 +9,7 @@ const ForgotPassword = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://password-reset-backend-4340.onrender.com/api/auth/forgot-password",
+        "https://password-reset-backend-at2j.onrender.com/api/auth/forgot-password",
         { email }
       );
       setMessage(res.data.msg);

@@ -39,7 +39,7 @@ const Signup = () => {
 
     try {
       const res = await axios.post(
-        "https://password-reset-backend-4340.onrender.com/api/auth/signup",
+        "https://password-reset-backend-at2j.onrender.com/api/auth/signup",
         formData
       );
       setMessage(res.data.msg || "Signup successful!");

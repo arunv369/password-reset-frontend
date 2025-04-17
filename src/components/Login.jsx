@@ -27,7 +27,7 @@ const Login = () => {
 
     try {
       const res = await axios.post(
-        "https://password-reset-backend-4340.onrender.com/api/auth/login",
+        "https://password-reset-backend-at2j.onrender.com/api/auth/login",
         formData
       );
 

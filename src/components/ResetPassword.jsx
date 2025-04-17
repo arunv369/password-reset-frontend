@@ -31,7 +31,7 @@ const ResetPassword = () => {
 
     try {
       const res = await axios.post(
-        `https://password-reset-backend-4340.onrender.com/api/auth/reset-password/${token}`,
+        `https://password-reset-backend-at2j.onrender.com/api/auth/reset-password/${token}`,
         { password }
       );
       setMessage(res.data.msg);
